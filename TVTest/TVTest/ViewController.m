@@ -30,6 +30,8 @@
 }
 
 #pragma mark - 试试分支的创建与合并
+#pragma mark - 分支合并成功
+
 
 #pragma mark - 添加通知
 - (void)addNotification
