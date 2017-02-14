@@ -29,6 +29,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - 试试分支的创建与合并
 
 #pragma mark - 添加通知
 - (void)addNotification
@@ -37,6 +38,8 @@
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onDeviceOrientationChange) name:UIDeviceOrientationDidChangeNotification object:nil];
+    
+
 }
 
 - (void)onDeviceOrientationChange
